@@ -33,24 +33,24 @@ return [
     'crypt' => [
         'key' => '0091f99685b8a2b351d0b52c20500949'
     ],
-    //'db' => [
-    //    'table_prefix' => '',
-    //    'connection' => [
-    //        'default' => [
-    //            'host' => '127.0.0.1',
-    //            'dbname' => 'magento',
-    //            'username' => 'magento',
-    //            'password' => 'magento',
-    //            'model' => 'mysql4',
-    //            'engine' => 'innodb',
-    //            'initStatements' => 'SET NAMES utf8;',
-    //            'active' => '1',
-    //            'driver_options' => [
-    //                1014 => false
-    //            ]
-    //        ]
-    //    ]
-    //],
+    'db' => [
+        'table_prefix' => '',
+        'connection' => [
+            'default' => [
+                'host' => '127.0.0.1',
+                'dbname' => 'magento',
+                'username' => 'magento',
+                'password' => 'magento',
+                'model' => 'mysql4',
+                'engine' => 'innodb',
+                'initStatements' => 'SET NAMES utf8;',
+                'active' => '1',
+                'driver_options' => [
+                    1014 => false
+                ]
+            ]
+        ]
+    ],
     'resource' => [
         'default_setup' => [
             'connection' => 'default'
