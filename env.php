@@ -23,7 +23,7 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => 'db',
+                'host' => '127.0.0.1',
                 'dbname' => 'magento',
                 'username' => 'magento',
                 'password' => 'magento',
